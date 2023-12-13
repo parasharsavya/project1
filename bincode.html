@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Binay Code Converter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="bincode.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tools">
+        <button class="sub toggle">SWITCH</button>
+        <button class="sub clear clear-converted">CLEAR</button>
+        <button class="convert">CONVERT</button>
+        <button class="unconvert">UNCONVERT</button>
+      </div>
+      <div class="decimalToBinary">
+        <textarea autofocus class="decimal" placeholder="Your casual text ... example(sav)"></textarea>
+        <textarea class="binary disabled" placeholder="Your Binary Code ... example(0100100)"></textarea>
+      </div>
+      <div class="binaryToDecimal">
+        <textarea class="binary" placeholder="Your Binary Code ... example(0100100)"></textarea>
+        <textarea class="decimal disabled" placeholder="Your Decimal Text ... example(sav)"></textarea>
+      </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="bincode.js"></script>
+  </body>
+</html>
